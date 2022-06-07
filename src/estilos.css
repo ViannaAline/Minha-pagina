@@ -1,0 +1,58 @@
+/* CSS Document */
+/* Propriedades para formatacao do testo. 
+O texto sera alinhado a direita com a cor azul e fonte Arial*/
+body{
+    background-color: whitesmoke;
+}
+        h2 {
+            color: purple;
+        }
+        p {
+            color: darkmagenta;
+        }
+        b {
+            color: black;
+        }
+        strong {
+            color: dimgrey;
+        }
+        u {
+            color: darkslategray;
+        }
+        h4 {
+            font-size: 12px;
+        }
+        h3 {
+            color: blue;
+        }
+        i {
+            margin-left: 40px;
+        }
+        a:link {
+            color: brown;
+        }
+        a:visited {
+            color: cadetblue;
+        }
+        a:hover {
+            color: chocolate;
+        }
+        a:active {
+            color: cornflowerblue;
+        }
+        h1 {
+            color: coral;
+            text-align: center;
+        }
+        h5 {
+            background-color: beige;
+            border: 2px;color: cadetblue;
+        }
+        h6{
+            text-align: right;
+            color: aqua;
+            font-family: arial;
+        }
+        
+
+
