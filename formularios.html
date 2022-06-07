@@ -22,8 +22,12 @@
         &lt;p&gt;Referência:&lt;TEXTAREA NAME="REF" ROWS="2" COLS="40"&gt; Acrescenta uma caixa para digitar um texto. &lt;/TEXTAREA&gt;&lt;/P&gt;</B>
         &lt;INPUT TYPE=SUBMIT VALUE="Enviar"&gt; Acrescenta um botão para envio.<br>
         &lt;INPUT TYPE=RESET VALUE="LIMPAR"&gt; Acrescenta um botão para apagar informações inseridas.<br>
-
-
+        &lt;INPUT TYPE=HIDDEN NAME="CPF" VALUE="verdadeiro"&gt; Adiciona um campo oculto e envia uma palavra chave, validação para o script CGI.<BR>
+        &lt;SELECT NAME="cidades" SIZE="4"&gt;&lt;OPTION&gt;LONDRES&lt;OPTION&gt;PARIS&lt;/SELECT&gt; Adiciona uma lista de opções. <BR>
+        &lt;SELECT NAME="cidades"&gt;&lt;OPTION&gt;LONDRES&lt;OPTION&gt;PARIS&lt;/SELECT&gt; Adiciona uma lista de opções abrindo uma caixa para escolha.<BR>
+        
+        
+        
         <FORM ACTION="malito:alinevianna.1992@outlook.com METHOD="POST">
             <P FONTFACE="Verdana"><b>Nome:</b>
             <INPUT TYPE=TEXT NAME="NOME" SIZE="20" MAXLENGHT="50"></p>
@@ -45,8 +49,29 @@
             <P FONTFACE="Verdana"><b>Outro:</b>
             <INPUT TYPE="TEXT" NAME="Musica" SIZE="20"></p>
             <P><B>Hobbies:<INPUT TYPE=TEXT NAME=HOBBIES" SIZE="100"></B></P>
+            <h4>Escolha a cidade que deseja conhecer:</h4>
+            <SELECT NAME="CIDADES" SIZE="6">
+            <OPTION>Londres</OPTION>
+            <OPTION>Paris</OPTION>
+            <OPTION>Roma</OPTION>
+            <OPTION>Madri</OPTION>
+            <OPTION>Hong Kong</OPTION>
+            <OPTION>Montreal</OPTION>
+            </SELECT>
+            <h4>Escolha a cidade que deseja conhecer:</h4>
+            <SELECT NAME="CIDADES1">
+            <OPTION>Londres</OPTION>
+            <OPTION>Paris</OPTION>
+            <OPTION>Roma</OPTION>
+            <OPTION>Madri</OPTION>
+            <OPTION>Hong Kong</OPTION>
+            <OPTION>Montreal</OPTION>
+            </SELECT><BR>            
+
             <INPUT TYPE=SUBMIT VALUE="Enviar">
             <INPUT TYPE=RESET VALUE="Limpar">
+            <INPUT TYPE=HIDDEN NAME="CPF" VALUE="VERDADEIRO">
+
 
               
             
