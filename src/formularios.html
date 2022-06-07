@@ -1,0 +1,84 @@
+<!DOCtype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <h2></b>Estrutura de criação de formulários</b></h2>
+   
+        &lt;form action="URL"&gt; Os dados serão enviados ao endereço de e-mail especificado. &lt;/form&gt;<br/>
+        &lt;form action="processa.php"&gt; Serão processados por meio de um código PHP.<br/>
+        &lt;form action="URL" method="GET" ou "POST"&gt; GET: Utilizado para respostas únicas. POST: Utilizado para a transmissão de uma maior quantidade de dados.<br/>
+        &lt;face="VERDANA"&gt;Nome:&lt;input type="text" name="NOME" size="20" maxlenght="50"&gt;&lt;/p&lt;&gt; Cria um formulário para preenchimento do nome. <br/>
+        &lt;face="VERDANA"&gt;Estado:&lt;input type="text" name="UF" size="2" value="SP"&gt; Cria um formulário para preenchimento do estado. <br/>
+        &lt;P&gt;Número do cartão de crédito:&lt;input type="text" name="num_cartao" size="16"&gt;&lt;/p&gt;<br/>
+        &lt;p&gt;Senha: &lt;input type="password" name="SENHA" size="6"&gt;&lt;/p&gt;<br/>
+        &lt;input type="radio" name="selecao-sexo"checked&gt;Feminino<br/>
+        &lt;input type="radio" name="selecao-sexo"checked&gt;Masculino </b>Acrescenta uma caixa de opções de múltipla escolha.</b><br/>
+        &lt;input type="checkbox" name="HORÁRIO1" size="1"&gt;13H ÀS 15H </b>Acrescenta uma caixa de múltipla escolha.</b><br/>
+        &lt;p&gt;Referência:&lt;textarea name="REF" rows="2" cols="40"&gt; Acrescenta uma caixa para digitar um "text"o. &lt;/textarea&gt;&lt;/P&gt;</b>
+        &lt;input type="submit" value="Enviar"&gt; Acrescenta um botão para envio.<br/>
+        &lt;input type="reset" value="Limpar"&gt; Acrescenta um botão para apagar informações inseridas.<br/>
+        &lt;input type="hidden" name="CPF" value="verdadeiro"&gt; Adiciona um campo oculto e envia uma palavra chave, validação para o script CGI.<br/>
+        &lt;select name="cidades" size="4"&gt;&lt;option&gt;LONDRES&lt;option&gt;PARIS&lt;/select&gt; Adiciona uma lista de opções. <br/>
+        &lt;select name="cidades"&gt;&lt;option&gt;LONDRES&lt;option&gt;PARIS&lt;/select&gt; Adiciona uma lista de opções abrindo uma caixa para escolha.<br/>
+        
+        
+        
+        <form action="mailto:alinevianna.1992@outlook.com" method="POST">
+            <P font face="Verdana"></b>Nome:</b>
+            <input type="text" name="NOME" size="20" maxlenght="50"></p>
+            <P font face="Verdana"></b>Estado:</b>
+            <input type="text" name="UF" size="2" value="SP"></p>
+            <P font face="Verdana"></b>Senha login:</b>
+            <input type="password" name="SENHA" size="6"></p>
+            <p><input type="radio" name="selecao-sexo" checked>FEMININO<br/>
+            <input type="radio" name="selecao-sexo" checked>MASCULINO</p>
+            <P font face="Verdana"></b>Selecione seu estilo de música favorito:</b>
+            <input type="checkbox" name="Musica1" size="1"> Rock<br/>
+            <input type="checkbox" name="Musica2" size="1"> Eletrônica<br/>
+            <input type="checkbox" name="Musica3" size="1"> MPB<br/>
+            <input type="checkbox" name="Musica4" size="1"> AXÉ<br/>
+            <input type="checkbox" name="Musica5" size="1"> SAMBA<br/>
+            <input type="checkbox" name="Musica6" size="1"> PAGODE<br/>
+            <input type="checkbox" name="Musica7" size="1"> Música Clássica<br/>
+            <input type="checkbox" name="Musica8" size="1"> FORRÓ<br/>
+            <P font face="Verdana"></b>Outro:</b>
+            <input type="text" name="Musica" size="20"></p>
+            <p></b>Hobbies:<input type="text" name="HOBBIES" size="100"></b></p>
+            <h4>Escolha a cidade que deseja conhecer:</h4>
+            <select name="CIDADES" size="6">
+            <option>Londres</option>
+            <option>Paris</option>
+            <option>Roma</option>
+            <option>Madri</option>
+            <option>Hong Kong</option>
+            <option>Montreal</option>
+            </select>
+            <h4>Escolha a cidade que deseja conhecer:</h4>
+            <select name="CIDADES1">
+            <option>Londres</option>
+            <option>Paris</option>
+            <option>Roma</option>
+            <option>Madri</option>
+            <option>Hong Kong</option>
+            <option>Montreal</option>
+            </select><br/>            
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+            <input type="hidden" name="CPF" value="VERDADEIRO">
+
+
+              
+            
+        </form>
+    
+</body>
+</html>
+
+
+
