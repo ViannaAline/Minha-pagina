@@ -1,11 +1,38 @@
 /* CSS Document */
 /* Propriedades para formatacao do testo. 
 O texto sera alinhado a direita com a cor azul e fonte Arial*/
+/* Remove o sublinhado de um link
+a {text-decoration:none;} */
+/* Adciona uma linha sobre o texto 
+h1 {text-decoration:overline}*/
+/* Risca o texto
+h2 {text-decoration:underline;}*/
+/*Faz o texto piscar ( nem todos os browsers aceitam esta opcao)
+h4 {text-decoration:blink;}*/
+/* Para caixa alta (tudo maiusculo)
+p.uppercase {text-transform:uppercase;}*/
+/* Para caixa baixa (tudo minusculo)
+p.lowercase {text-transform:lowercase;}*/
+/* Para capitular a primeira letra maiuscula e as demais minusculas de cada palavra
+p.capitalize {text-transform:capitalize;}*/
+/* Para links não visitados
+a:link {color: blue;}*/
+/* Para links já visitados
+a:visited {color: red;}*/
+/* Ao passar o mouse sobre o link
+a:hover {color: black;}*/
+/* Links ativos
+a:active {color: green;}*/
+
+
 body{
     background-color: whitesmoke;
 }
         h2 {
-            color: purple;
+            color: rgb(255,0,0);
+            text-align: justify;
+            margin: 10px;
+            padding: 5px;
         }
         p {
             color: darkmagenta;
@@ -21,6 +48,7 @@ body{
         }
         h4 {
             font-size: 12px;
+            text-indent:50px;
         }
         h3 {
             color: blue;
@@ -50,9 +78,47 @@ body{
         }
         h6{
             text-align: right;
-            color: aqua;
-            font-family: arial;
+            color: blue;
+            font-family: "Times New Roman", Times, serif;
+            font-style: oblique;
         }
-        
+        #meu_estilo{
+            color: red;
+        }
+        #pai{
+            width: 200px;
+            height: 200px;
+            background-color: orange;
+            padding: 10px;
+        }
+        #filho{
+            width: 50px;
+            height: 50px;
+            background-color: pink;
+            margin-left: 20px;
+        }
+        ul{
+            list-style-type: circle;
+        }
+        ol{
+            list-style-type: upper-roman;
+        }
+        table{
+            background-color: aquamarine;
+            border-collapse: collapse;
+            border: 1px solid black; 
+            width: 10px;          
+        }
+        th{
+            height: 5px;
+            border: 1px solid black; 
+            
+        }
+        td{
+            padding: 2px;
+            border: 1px solid black; 
+        }
+    
+
 
 
