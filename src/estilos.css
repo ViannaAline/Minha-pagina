@@ -23,10 +23,22 @@ a:visited {color: red;}*/
 a:hover {color: black;}*/
 /* Links ativos
 a:active {color: green;}*/
+/* Para criar uma margem
+body{
+    margin-top: 100px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    margin-left: 70px;
+}*/
+/*Criar margem resumidamente
+body{
+    margin: 100px 40px 10px 70px;
+}*/
 
 
 body{
     background-color: whitesmoke;
+    margin: 100px 40px 10px 70px;
 }
         h2 {
             color: rgb(255,0,0);
@@ -118,6 +130,124 @@ body{
             padding: 2px;
             border: 1px solid black; 
         }
+        a{
+            color: blueviolet;
+        }
+        a.salgados{
+            color: #07a0f8;
+        }
+        a.doces{
+            color: rgb(17, 204, 179);
+        }
+        span.animal{
+            color: rgb(255, 230, 0);
+        }
+        span.pais{
+            color: rgb(17, 51, 204);
+        }
+        #mamiferos{
+            background: rgb(181, 248, 228);
+            padding: 2px;
+        }
+        #repteis{
+            background: rgb(225, 152, 240);
+        }
+        div.box{
+            width: 200px;
+            height: 500px;
+            border: 1px solid black;
+            background: gray;
+        }
+        #gato{
+           float: left;
+           width: 300px;
+           clear: both; 
+        }
+        #box1{
+            position: absolute;
+            top: 30px;
+            left: 30px;
+            background: red;
+            width: 50px;
+            height: 50px;
+        }
+        #box2{
+            position: absolute;
+            top: 30px;
+            left: 90px;
+            background: blue;
+            width: 50px;
+            height: 50px;
+        }
+        #box3{
+            position: absolute;
+            top: 30px;
+            left: 150px;
+            background: yellow;
+            width: 50px;
+            height: 50px;
+        }
+        #box4{
+            position: absolute;
+            top: 30px;
+            left: 210px;
+            background: green;
+            width: 50px;
+            height: 50px;
+        }
+       #flor1{
+           position: relative;
+           left: 450px;
+           bottom: 400px;
+       }
+       #flor2{
+           position: relative;
+           left: 470px;
+           bottom: 590px;
+       }
+       #flor3{
+           position: relative;
+           left: 250px;
+           bottom: 800px;
+       }
+       #contato ul li{
+           display: inline;
+       }
+       #contato ul li.linkedin a{
+        float: left;
+        width: 225px;
+        height: 225px;
+        display: block;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        background: url('img/linkedin.png') no-repeat scroll 0 0 transparent;
+    }
+    #contato ul li.email a{
+        float: left;
+        width: 225px;
+        height: 225px;
+        display: block;
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        background: url('img/email.png') no-repeat scroll 0 0 transparent;
+    }
+    #cat{
+        width: 50%;
+    }
+    #cat img{
+        width: 50%; margin-bottom: 0;
+    }
+   
+
+
+    
+    
+
+
     
 
 

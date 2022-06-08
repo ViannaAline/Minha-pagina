@@ -1,0 +1,18 @@
+/* Duvidas CSS*/
+div.box{
+    width: 200px;
+    height: 500px;
+    border: 1px solid black;
+    background: gray;
+}
+.modalDialog{
+    position: fixed;
+    font-family: 'Verdana';
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background: rgba(181, 9, 9, 0.8);
+    z-index: 9999;
+
+}
