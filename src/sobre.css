@@ -1,0 +1,99 @@
+/* CSS Sobre */
+body{
+   margin: 15px;
+   padding: 0;
+   background-color: #fff; 
+}
+.principal{
+    font-size: medium;
+    font-family: 'Times New Roman', Times, serif;
+    color: #777;
+}
+header{
+    width: 100%;
+    height: 100px;
+    background-color: #fff;
+    position: relative;
+    top: 0;
+}
+.aprendizado{
+    position: absolute;
+    width: 300px;
+    height: auto;
+}
+nav{
+    position: absolute;
+    right: 30px;
+    bottom: 0px;
+    list-style: none;
+    max-width: 1000px;
+    }
+nav ul li{
+    float: left;
+    color: rgb(180, 180, 180);
+    width: auto;
+    margin: 0.1em;
+    font-size: 1.5em;
+    font-family: 'verdana';
+    display: block;
+    padding: 10px;
+    position: relative;
+    transition-duration: 0.5s;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #bbb;
+}
+nav ul li a:hover{
+    color: #3580f0;
+    cursor: pointer;
+}
+ul li ul{
+    background-color: white;
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    margin-top: 10px;
+    left: 0px;
+    display: none;
+}
+ul li:hover > ul, ul li ul:hover{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    font-size: small;
+    text-align: left;
+}
+nav ul li ul li{
+    clear: both;
+    width: 10%;
+}
+h1{
+        color: #1d76db;
+        font-family: 'Times New Roman';
+        font-size: 100px;
+        text-align: center;
+        text-decoration: wavy;
+        text-transform: initial;
+        text-overflow: ellipsis;
+    }
+    #tecnologia{
+        width: 100%;
+    }
+    #tecnologia img{
+        width: 1000px;
+        height: 450px;
+        margin-bottom: 0;
+        background-attachment: fixed;
+        border-image-outset: 100px;
+        position: absolute;
+    }
+    p{
+        color: black;
+        font-weight: bold;
+        font-size: 20px;
+        text-align: justify;
+        text-decoration-color: aliceblue;
+    }
+    
